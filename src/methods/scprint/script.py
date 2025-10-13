@@ -13,10 +13,10 @@ from scprint.tasks import Denoiser
 par = {
     "input_train": "resources_test/task_batch_integration/cxg_immune_cell_atlas/train.h5ad",
     "output": "output.h5ad",
-    "model_name": "large",
+    "model_name": "v2-medium",
     "model": None,
-    "predict_depth_mult": 5.0,
-    "max_len": 5000,
+    "predict_depth_mult": 1.0,
+    "max_len": 12000,
     "batch_size": 32,
 }
 meta = {"name": "scprint"}
