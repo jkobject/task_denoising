@@ -42,8 +42,8 @@ arguments:
   - name: --model_name
     type: "string"
     description: Which model to use. Not used if --model is provided.
-    choices: ["large", "v2-medium", "small"]
-    default: "v2-medium"
+    choices: ["large-v1", "medium-v.15", "small-v1"]
+    default: "medium5-"
   - name: --model
     type: file
     description: Path to the scPRINT model.
